@@ -17,21 +17,40 @@ export default function Home() {
     },
 
   ]);
-
   const ANSWERS = {
     intro: (
-      <p>Hola soy (patricio avila)</p>
+      <p>
+        Hola, soy Patricio Ávila, un desarrollador autodidacta con un enfoque en el desarrollo web.
+        Me apasiona construir proyectos innovadores y siempre busco aprender nuevas tecnologías para
+        mejorar mis habilidades y contribuir a la comunidad. Estoy especializado en lenguajes como
+        JavaScript, React, TypeScript, y tengo conocimientos en BackEnd con Node.js, Express, y bases
+        de datos como MongoDB y MySQL.
+      </p>
     ),
     comunidad: (
-      <p>soy la comunidad</p>
+      <p>
+        Soy parte de la comunidad de desarrolladores que busca crecer constantemente a través del
+        intercambio de conocimientos y el trabajo en equipo. Me encanta colaborar con otros
+        profesionales y aprender de sus experiencias, contribuyendo con mi perspectiva única sobre
+        la programación y el desarrollo de aplicaciones.
+      </p>
     ),
     unknown: (
-      <p>soy unkonwn</p>
+      <p>
+        Lo siento, no comprendo tu pregunta. Por favor, prueba con otras palabras o frases.
+      </p>
     ),
     contacto: (
-      <p>Ssoy contacto </p>
-    )
+      <p>
+        Puedes contactarme para colaborar en proyectos, resolver dudas o
+        simplemente intercambiar ideas sobre desarrollo web. Siempre estoy disponible para discutir
+        nuevas oportunidades. Puedes encontrarme en mi correo electrónico o en redes sociales, donde
+        comparto contenido relacionado con el desarrollo y la tecnología.
+      </p>
+    ),
+  
   };
+  
 
   const EXAMPLES = [
     // Intro ejemplos
@@ -45,6 +64,8 @@ export default function Home() {
     // Contacto ejemplos
     { text: "¿Dónde vives?", label: "contacto" },
     { text: "¿Cómo puedo contactarte?", label: "contacto" },
+
+   
   
     // Unknown ejemplos
     { text: "¿Eres el dios de los programadores?", label: "unknown" },
